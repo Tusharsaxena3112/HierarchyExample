@@ -44,4 +44,8 @@ public class Student extends Human {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public String toString() {
+        return "I am a student.";
+    }
 }
