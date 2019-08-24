@@ -1,20 +1,12 @@
 package human;
 
 public class Human {
-    private String eyes;
-    private String legs;
-    private String hairs;
-    private String nose;
-    private String hands;
+    private String eyes = "Two";
+    private String legs = "Two";
+    private String hairs = "Uncountable";
+    private String nose = "One";
+    private String hands = "Two";
 
-    public Human(String eyes, String legs, String hairs, String nose, String hands) {
-        this.eyes = eyes;
-        this.hairs = hairs;
-        this.hands = hands;
-        this.legs = legs;
-        this.nose = nose;
-
-    }
 
     public String getEyes() {
         return eyes;
@@ -38,7 +30,7 @@ public class Human {
     }
 
     public String toString() {
-        return String.format("I am a Human . I have some properties which are inherited by my other subclasses ");
+        return "I am a Human . I have some properties which are inherited by my other subclasses ";
     }
 
 
