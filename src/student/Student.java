@@ -41,4 +41,7 @@ public class Student extends Human {
         return aim;
     }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
